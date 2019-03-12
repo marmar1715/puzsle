@@ -47,5 +47,9 @@ setInterval(function(){
     hidden = !hidden;
 },1000);
 
+function nextPage() {
+	window.open("https://destinyceja.github.io/Escaspe_wonderland/", "_self");
+}
+
 // create two functions - one that adds opaque and one that resets images
 // add ids to all eight images (id's should be UNIQUE)
