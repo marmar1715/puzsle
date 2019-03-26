@@ -1,3 +1,4 @@
+//id's for the clocks 
 a = document.getElementById("one");
 b = document.getElementById("two");
 c = document.getElementById("three");
@@ -14,14 +15,14 @@ k = document.getElementById("next");
 function allOpaque(el){
 	el.classList.add("opaque");
 }
-
+//removes opacity from correct clocks 
 function resetAll(){
 	a.classList.remove("opaque");
 	f.classList.remove("opaque");
 	g.classList.remove("opaque");
 	i.src = "";
 }
-
+//allows the final key to appear after the correct opaque clocks are chosen which are a,f, and g when function is called 
  function checkOpaque(elem){
 	if (f.classList.contains("opaque") && g.classList.contains("opaque")){
 		i.src ="images/gold_key.gif";
@@ -42,7 +43,7 @@ var isVisible = "visible";
 
 
 var hidden = false;
-
+//allows the the clock to blink every second using the visible and false class
 setInterval(function(){
     document.getElementById("time").style.visibility= hidden ? "visible" : "hidden";
     hidden = !hidden;
@@ -50,7 +51,7 @@ setInterval(function(){
 	
 
 
-
+//opens second page when function is called
 function nextPage(el) {
 	window.open("https://destinyceja.github.io/Escaspe_wonderland/");
 }
