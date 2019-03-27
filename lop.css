@@ -46,12 +46,12 @@ body {
 .hide{
 visibility: hidden;
 }	
-// implemented to hide key so that it won't intially appear on page before the puzzle is solved
+*/ implemented to hide key so that it won't intially appear on page before the puzzle is solved
 .invisible {
 	display:none;
 	visibility: hidden;
 }
-//changes opacity level
+*/changes opacity level
 .opaque {
 	opacity: 0.25;
 }	
