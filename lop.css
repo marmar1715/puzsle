@@ -79,3 +79,17 @@ visibility: hidden;
   background-image: url("back.jfif");
   
 }
+
+
+.fitted {
+	display: block;
+	height: 33.5%;
+	width: 100%;	
+}
+
+.black {
+	display: block;
+	height: 33.5%;
+	width: 100%;
+}
+		
