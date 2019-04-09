@@ -80,4 +80,17 @@ visibility: hidden;
   
 }
 
+.cap {
+   height: 35%;
+   width: 100%;
+   display: flex;
+	
+}
+	
+.rat {
+   height: 35%;
+   width: 100%;
+   display: block;
+	
+}
 		
