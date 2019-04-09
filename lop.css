@@ -8,12 +8,12 @@ body {
 	display: flex;
         height: 100%;
 	width: 100%;
-	background-color: #8B0000;
+	background-color: #8DC7E5;
 
 }
 
 .blue {
-	display: block;
+	display: flex;
 	height: 50%;
 	width: 100%;
     background-color: #8B0000;
