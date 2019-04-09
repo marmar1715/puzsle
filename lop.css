@@ -23,7 +23,7 @@ body {
 .red {
 	display: flex;
 	height: 50%;
-	width: 100%;
+	width: 50%;
     background-image:url("images/med.png");
 }
 
