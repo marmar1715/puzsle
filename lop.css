@@ -8,13 +8,15 @@ body {
 	display: flex;
         height: 100%;
 	width: 100%;
+	background-color: #8B0000;
 
 }
 
 .blue {
-	display: flex;
+	display: block;
 	height: 50%;
 	width: 100%;
+    background-color: #8B0000;
 }
 
 	
@@ -78,17 +80,15 @@ visibility: hidden;
   
 }
 
-.cap {
-   height: 35%;
-   width: 100%;
-   display: flex;
-	
+
+.fitted {
+	display: block;
+	height: 33.5%;
+	width: 100%;	
 }
-	
-.rat {
-   height: 35%;
-   width: 100%;
-   display: block;
-	
+
+.black {
+	display: block;
+	height: 33.5%;
+	width: 100%;
 }
-		
